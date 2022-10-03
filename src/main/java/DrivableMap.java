@@ -63,7 +63,7 @@ class DrivableMap {
      *       drivable_map.
      */
 
-    public List getTradable(){
+    public List<Tradable> getTradable(){
         ArrayList<Tradable> listOfItems = new ArrayList<>();
         for(String key: this.drivable_map.keySet()){
             if(this.drivable_map.get(key) instanceof Tradable){
